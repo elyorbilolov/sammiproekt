@@ -1,0 +1,42 @@
+{
+    "menu": [
+        {
+            "img": "./img/tabs/1.png",
+            "altimg": "usual",
+            "title": "Plan 'Usual'",
+            "descr": "Lorem ipsum dolor sit amet consectetur adipisicin elit. Praesentium a delectus quae impedit voluptas architecto veritatis minima adipisci corrupti dolore, quisquam, cum odit. Accusamus officia, laboriosam iste est minus sit.",
+            "price": 10
+        },
+        {
+            "img": "./img/tabs/2.jpg",
+            "altimg": "alite",
+            "title": "Plan 'Premium'",
+            "descr": "Lorem ipsum dolor sit amet consectetur adipisicin elit. Praesentium a delectus quae impedit voluptas architecto veritatis minima adipisci corrupti dolore, quisquam, cum odit. Accusamus officia, laboriosam iste est minus sit.",
+            "price": 15
+        },
+        {
+            "img": "./img/tabs/3.jpg",
+            "altimg": "vip",
+            "title": "Plan 'VIP'",
+            "descr": "Lorem ipsum dolor sit amet consectetur adipisicin elit. Praesentium a delectus quae impedit voluptas architecto veritatis minima adipisci corrupti dolore, quisquam, cum odit. Accusamus officia, laboriosam iste est minus sit.",
+            "price": 20
+        }
+    ],
+    "request": [
+        {
+            "name": "Elyor Baxtiyarovich",
+            "phone": "+998998575750",
+            "id": 1
+        },
+        {
+            "name": "Markaz-076",
+            "phone": "+998 99 857 57 50",
+            "id": 2
+        },
+        {
+            "name": "Markaz-076",
+            "phone": "+998 99 857 57 50",
+            "id": 3
+        }
+    ]
+}
