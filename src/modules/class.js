@@ -10,9 +10,9 @@ function clas() {
                 (this.classes = classes),
                 (this.parent = document.querySelector(parentSelector)),
                 (this.transfer = 11520),
-                this.chageToUZS();
+                this.changeToUZS();
         }
-        chageToUZS() {
+        changeToUZS() {
             this.price = this.price * this.transfer;
         }
 
@@ -42,6 +42,7 @@ function clas() {
             this.parent.append(element);
         }
     }
+    const axios = require("axios");
 
     axios.get("http://localhost:3000/menu").then((data) => {
         data.data.forEach(({ img, altimg, title, descr, price }) => {
@@ -55,25 +56,6 @@ function clas() {
             ).render();
         });
     });
-
-    // async function getRecource(url) {
-    //     const res = await fetch(url);
-
-    //     return await res.json();
-    // }
-
-    // getRecource("http://localhost:3000/menu").then((data) => {
-    //     data.forEach(({ img, altimg, title, descr, price }) => {
-    //         new MenuCard(
-    //             img,
-    //             altimg,
-    //             title,
-    //             descr,
-    //             price,
-    //             ".menu .container"
-    //         ).render();
-    //     });
-    // });
 }
 
 module.exports = clas;
