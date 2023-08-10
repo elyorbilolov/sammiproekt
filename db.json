@@ -1,52 +1,167 @@
 {
-    "menu": [
-        {
-            "img": "./img/tabs/1.png",
-            "altimg": "usual",
-            "title": "Plan 'Usual'",
-            "descr": "Lorem ipsum dolor sit amet consectetur adipisicin elit. Praesentium a delectus quae impedit voluptas architecto veritatis minima adipisci corrupti dolore, quisquam, cum odit. Accusamus officia, laboriosam iste est minus sit.",
-            "price": 10
-        },
-        {
-            "img": "./img/tabs/2.jpg",
-            "altimg": "alite",
-            "title": "Plan 'Premium'",
-            "descr": "Lorem ipsum dolor sit amet consectetur adipisicin elit. Praesentium a delectus quae impedit voluptas architecto veritatis minima adipisci corrupti dolore, quisquam, cum odit. Accusamus officia, laboriosam iste est minus sit.",
-            "price": 15
-        },
-        {
-            "img": "./img/tabs/3.jpg",
-            "altimg": "vip",
-            "title": "Plan 'VIP'",
-            "descr": "Lorem ipsum dolor sit amet consectetur adipisicin elit. Praesentium a delectus quae impedit voluptas architecto veritatis minima adipisci corrupti dolore, quisquam, cum odit. Accusamus officia, laboriosam iste est minus sit.",
-            "price": 20
-        }
-    ],
-    "request": [
-        {
-            "name": "Elyor Baxtiyarovich",
-            "phone": "+998998575750",
-            "id": 1
-        },
-        {
-            "name": "Markaz-076",
-            "phone": "+998 99 857 57 50",
-            "id": 2
-        },
-        {
-            "name": "Markaz-076",
-            "phone": "+998 99 857 57 50",
-            "id": 3
-        },
-        {
-            "name": "Elyor",
-            "phone": "+998 (71) 207-0003",
-            "id": 4
-        },
-        {
-            "name": "Markaz-083",
-            "phone": "+998 99 857 57 50",
-            "id": 5
-        }
-    ]
+  "menu": [
+    {
+      "img": "./img/tabs/1.png",
+      "altimg": "usual",
+      "title": "Plan 'Usual'",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicin elit. Praesentium a delectus quae impedit voluptas architecto veritatis minima adipisci corrupti dolore, quisquam, cum odit. Accusamus officia, laboriosam iste est minus sit.",
+      "price": 10
+    },
+    {
+      "img": "./img/tabs/2.jpg",
+      "altimg": "alite",
+      "title": "Plan 'Premium'",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicin elit. Praesentium a delectus quae impedit voluptas architecto veritatis minima adipisci corrupti dolore, quisquam, cum odit. Accusamus officia, laboriosam iste est minus sit.",
+      "price": 15
+    },
+    {
+      "img": "./img/tabs/3.jpg",
+      "altimg": "vip",
+      "title": "Plan 'VIP'",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicin elit. Praesentium a delectus quae impedit voluptas architecto veritatis minima adipisci corrupti dolore, quisquam, cum odit. Accusamus officia, laboriosam iste est minus sit.",
+      "price": 20
+    }
+  ],
+  "request": [
+    {
+      "name": "Elyor Baxtiyarovich",
+      "phone": "+998998575750",
+      "id": 1
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 857 57 50",
+      "id": 2
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 857 57 50",
+      "id": 3
+    },
+    {
+      "name": "Elyor",
+      "phone": "+998 (71) 207-0003",
+      "id": 4
+    },
+    {
+      "name": "Markaz-083",
+      "phone": "+998 99 857 57 50",
+      "id": 5
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 857 57 50",
+      "id": 6
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 857 57 50",
+      "id": 7
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 8575750",
+      "id": 8
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 857 57 50",
+      "id": 9
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "1111",
+      "id": 10
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 857 57 50",
+      "id": 11
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 857 57 50",
+      "id": 12
+    },
+    {
+      "name": "Elyor",
+      "phone": "+998 99 8575750",
+      "id": 13
+    },
+    {
+      "name": "Markaz-018",
+      "phone": "+998 99 857 57 50",
+      "id": 14
+    },
+    {
+      "name": "Markaz-018",
+      "phone": "+998 99 8575750",
+      "id": 15
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998(91)133-87-08",
+      "id": 16
+    },
+    {
+      "name": "Markaz-018",
+      "phone": "+998 99 857 57 50",
+      "id": 17
+    },
+    {
+      "name": "Markaz-018",
+      "phone": "+998 99 857 57 50",
+      "id": 18
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 8575750",
+      "id": 19
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 857 57 50",
+      "id": 20
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 857 57 50",
+      "id": 21
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 8575750",
+      "id": 22
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 8575750",
+      "id": 23
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998911338708",
+      "id": 24
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 8575750",
+      "id": 25
+    },
+    {
+      "name": "Markaz-018",
+      "phone": "+998 99 857 57 50",
+      "id": 26
+    },
+    {
+      "name": "Markaz-018",
+      "phone": "+998 99 8575750",
+      "id": 27
+    },
+    {
+      "name": "Markaz-076",
+      "phone": "+998 99 857 57 50",
+      "id": 28
+    }
+  ]
 }

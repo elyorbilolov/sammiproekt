@@ -58,4 +58,4 @@ function clas() {
     });
 }
 
-module.exports = clas;
+export default clas;

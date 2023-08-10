@@ -1,7 +1,10 @@
-function form() {
+import { closeModal, openModal } from "./modal"; // Modalni import qilamiz
+import { postData } from "../server/server"; // Serverdan postData funksiyasini import qilamiz
+
+function form(formSelector, modalTimerId) {
     // FORM
 
-    const forms = document.querySelectorAll("form");
+    const forms = document.querySelectorAll(formSelector);
 
     forms.forEach((form) => {
         bindPostData(form);
@@ -12,22 +15,6 @@ function form() {
         success: "Thank's for submitting our form",
         failure: "Something went wrong",
     };
-
-    async function postData(url, data) {
-        const res = await fetch(url, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: data,
-        });
-
-        if (!res.ok) {
-            throw new Error(`Could not fetch ${url}, status: ${res.status}`);
-        }
-
-        return await res.json();
-    }
 
     function bindPostData(form) {
         form.addEventListener("submit", (e) => {
@@ -63,7 +50,9 @@ function form() {
         const prevModalDialog = document.querySelector(".modal__dialog");
 
         prevModalDialog.classList.add("hide");
-        openModal();
+        if (typeof openModal === "function") {
+            openModal(".modal", modalTimerId);
+        }
 
         const thanksModal = document.createElement("div");
         thanksModal.classList.add("modal__dialog");
@@ -78,9 +67,9 @@ function form() {
             thanksModal.remove();
             prevModalDialog.classList.add("show");
             prevModalDialog.classList.remove("hide");
-            closeModal();
+            closeModal(".modal");
         }, 4000);
     }
 }
 
-module.exports = form;
+export default form;
